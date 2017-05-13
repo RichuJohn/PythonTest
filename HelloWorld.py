@@ -1,9 +1,9 @@
 """sample HelloWorld program"""
 
-def print_hello():
+def print_hello(name):
     """method to print hello"""
-    hello = "Hello World"
+    hello = "Hello World " + name
     print(hello)
 
-print_hello()
+print_hello("Richu&Amrutha")
 print(print_hello.__doc__)
